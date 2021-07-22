@@ -15,7 +15,12 @@ This first edition instruction manual was created in July 2021.
 Disclaimer: 
 
 
+(draft)
 
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 
 
 Remember, before attempting the below steps, do not have any additional browser screens or other applications on your computer. Take time right now to make sure unncessary programs or applications are shut down properly.
