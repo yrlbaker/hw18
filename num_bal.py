@@ -1,4 +1,4 @@
-# This code will send a test transaction.
+# This code will check the blocknumber and balance of the ETH account.
 
 from web3 import Web3
 from dotenv import load_dotenv
@@ -7,8 +7,6 @@ from eth_account import Account
 load_dotenv()
 
 w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:8545"))
-from web3.middleware import geth_poa_middleware
-w3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
 print(w3.eth.blockNumber)
 
